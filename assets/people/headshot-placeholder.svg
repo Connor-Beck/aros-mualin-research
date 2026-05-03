@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" role="img" aria-labelledby="title desc">
+  <title id="title">Headshot placeholder</title>
+  <desc id="desc">A simple fern line illustration used until Daniela provides a headshot.</desc>
+  <rect width="800" height="960" fill="#efe8dc"/>
+  <path d="M148 772c188-168 244-360 308-590" fill="none" stroke="#2f4a35" stroke-width="16" stroke-linecap="round"/>
+  <path d="M266 608c-74-5-134 18-183 70M316 510c-92-16-161 9-222 58M364 402c-83-15-151 3-211 47M414 286c-61-9-112 4-156 34M297 566c103 0 174 38 235 103M342 456c109 4 186 39 253 96M390 348c92 3 163 31 222 83M432 244c66 2 116 22 154 57" fill="none" stroke="#2f4a35" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="472" cy="162" r="44" fill="none" stroke="#b8693d" stroke-width="12"/>
+  <text x="400" y="855" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#2f4a35">Headshot forthcoming</text>
+</svg>

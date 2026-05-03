@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniela Aros-Mualin | Fern Ecophysiology</title>
+  <meta name="description" content="Research website for Daniela Aros-Mualin, ecophysiologist studying fern and lycophyte diversity, physiology, and water relations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/site/fern-favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="site-logo" href="./" aria-label="Daniela Aros-Mualin home">
+        <svg class="brand-glyph" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M7 27c9-8 12-17 14-24"></path>
+          <path d="M13 19c-4-1-7 1-10 4M16 14c-5-1-8 0-11 3M19 9c-3 0-6 1-8 3M15 18c5 0 8 2 11 5M18 13c4 0 7 2 9 4M20 8c3 0 5 1 7 3"></path>
+          <circle cx="22" cy="4" r="2.2"></circle>
+        </svg>
+        <span>Daniela Aros-Mualin</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="./" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Fern and lycophyte ecophysiology</p>
+          <!-- PLACEHOLDER: needs review by Daniela -->
+          <h1>How ancient plant lineages live with light, water, and place.</h1>
+          <p class="hero-text">
+            Daniela Aros-Mualin studies the physiological and ecological mechanisms that shape fern and lycophyte diversity. Her work connects gas exchange, stomatal regulation, desiccation tolerance, microhabitat refugia, and the evolution of independent plant generations.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="research.html">Research</a>
+            <a class="button secondary" href="publications.html">Publications</a>
+            <a class="button secondary" href="cv.html">CV</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Interactive fern and phylogenetic tree line drawing">
+          <canvas id="fern-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Research themes</p>
+            <h2>Ferns as organisms, communities, and evolutionary lineages.</h2>
+          </div>
+        </div>
+        <div class="grid-3">
+          <a class="theme-card" href="research.html#biogeography">
+            <h3>Biogeography and evolution</h3>
+            <p>Global and regional diversity patterns reveal how environment, species pools, and independent generations shape fern and lycophyte richness.</p>
+            <span class="card-link">Read the theme</span>
+          </a>
+          <a class="theme-card" href="research.html#physiology">
+            <h3>Functional and physiological ecology</h3>
+            <p>Comparative gas-exchange studies test how light, stomatal control, and circadian regulation differ across seedless vascular plants.</p>
+            <span class="card-link">Read the theme</span>
+          </a>
+          <a class="theme-card" href="research.html#desiccation">
+            <h3>Water stress and refugia</h3>
+            <p>Work on desiccation tolerance, poikilohydry, and humid microhabitats clarifies how ferns persist across water-limited landscapes.</p>
+            <span class="card-link">Read the theme</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Latest publications</p>
+            <h2>Recent work</h2>
+          </div>
+          <a class="button secondary" href="publications.html">All publications</a>
+        </div>
+        <div class="grid-3">
+          <a class="publication-card" href="https://doi.org/10.3389/fevo.2026.1719536" target="_blank" rel="noopener noreferrer">
+            <span class="publication-meta">2026 · Frontiers in Ecology and Evolution</span>
+            <h3>The refuge effect of humid microhabitats for ferns decreases towards more arid regions</h3>
+            <p>Humid azonal habitats can buffer fern diversity, but only where regional moisture remains favorable.</p>
+          </a>
+          <a class="publication-card" href="https://doi.org/10.1093/plphys/kiaf238" target="_blank" rel="noopener noreferrer">
+            <span class="publication-meta">2025 · Plant Physiology</span>
+            <h3>Exclusive and hypersensitive stomatal control by blue-light in Equisetum</h3>
+            <p>Horsetails show rapid, blue-light-specific stomatal regulation that broadens known fern physiological diversity.</p>
+          </a>
+          <a class="publication-card" href="https://doi.org/10.1093/aob/mcae167" target="_blank" rel="noopener noreferrer">
+            <span class="publication-meta">2024 · Annals of Botany</span>
+            <h3>Untangling poikilohydry and desiccation tolerance</h3>
+            <p>Comparative work separates water-content regulation from recovery after drying across fern syndromes.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p class="footer-title">Daniela Aros-Mualin</p>
+      <div class="footer-links">
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://scholar.google.com/citations?user=qqN5bR4AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Scholar</a>
+        <a href="https://orcid.org/0000-0003-1526-188X" target="_blank" rel="noopener noreferrer">ORCID</a>
+        <a href="mailto:darosmua@purdue.edu">Email</a>
+      </div>
+      <p>&copy; <span data-year></span></p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
